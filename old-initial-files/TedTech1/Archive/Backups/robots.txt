@@ -1,0 +1,3 @@
+Sitemap: https://www.tedtech.in/sitemap.xml
+User-agent: *
+Disallow:

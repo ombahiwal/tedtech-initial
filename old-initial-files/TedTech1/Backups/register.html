@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="favi/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favi/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favi/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favi/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favi/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favi/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favi/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favi/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favi/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favi/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favi/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favi/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favi/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+    <style>
+
+  
+    </style>
+<body>
+
+    <link rel="stylesheet" href="./styles/style_temp.css" type="text/css">
+<div class="container">
+    
+  <form id="contact" action="process.php" method="post">
+      <center><img height="120vmin" src="./images/logos/logo2.png">
+          <br>
+    <h3>Quick Register</h3>
+    <h4></h4></center>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" name="name" value="" autofocus required>
+      <span class="error"></span>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" name="email" value="" tabindex="2" required>
+         <select name="status" required>
+             <option disabled selected>-- Select Status -- </option>
+             <option value="1">Student</option>
+             <option value="2">Professional</option>
+             <option value="3">Other</option>
+        </select>
+      <span class="error"></span>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Domains of Expertise...." type="text" name="domains" value="" tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="send" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    <div class="success"></div>
+  </form>
+</div>
+
+    </body>
+    <footer>
+    &#9400; TedTech.in 2018
+    </footer>
+    
+
+</html>
